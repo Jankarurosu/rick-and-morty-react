@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica", Sans-Serif;
+    background: linear-gradient(70deg, rgb(157, 246, 89), rgb(250, 231, 110));
+    text-align: center;
+
+}
+
+.title {
+    margin-top: 25px;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(55, 142, 55);
+}
+
+.logo {
+    max-width: 650px;
+    margin-top: 15px;
+    margin-left: -40px;
+}
+
+.btn-search {
+    padding: 10px 15px;
+    border-radius: 15px;
+    background: linear-gradient(70deg, rgb(157, 246, 89), rgb(250, 231, 110));
+    font-size: 20px;
+    border: solid 1px rgb(42, 145, 42);
+    transition: background-color 0.3s ease;
+    margin-top: 25px;
+}
+
+.back-home {
+    padding: 10px 15px;
+    border-radius: 15px;
+    background: linear-gradient(70deg, rgb(157, 246, 89), rgb(250, 231, 110));
+    font-size: 20px;
+    border: solid 1px rgb(42, 145, 42);
+    transition: background-color 0.3s ease;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.back-home:hover,
+.btn-search:hover {
+    background: linear-gradient(70deg, rgb(187, 246, 109), rgb(255, 244, 143));
+}
+
+.container-personajes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.personaje-container {
+    background: linear-gradient(70deg, rgb(167, 216, 129), rgb(230, 214, 114));
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.personaje-container img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.personaje-container h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.personaje-container h6 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.personaje-container p {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.personaje-container span {
+    font-weight: bold;
+}
+
+.live {
+    font-size: 1.1em;
+    color: green;
+}
+
+.dead-unknown {
+    font-size: 1.1em;
+    color: red;
+}
